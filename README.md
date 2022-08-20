@@ -2,21 +2,19 @@
 Python script run through command line to convert between different P. falciparum parasitaemia units
 
 ## Background
-Intended to convert between parasitaemia measurements commonly used in the field for the malaria parasite Plasmodium falciparum.
-Converts between three possible units: parasites per 200 white blood cells (WBC), parasites per ul blood, or proportion of red blood cells (RBCs) infected.
-The user defines the input unit type (options: "WBC200", "parasites_ul", or "pcnt_RBC", for the above units, respectively) and the parasitaemia value for that unit. The script will print in the terminal the conversion to the other two parasitaemia unit types.
+Intended to convert between parasitaemia measurements commonly used in the field for the malaria parasite Plasmodium falciparum. Converts between three possible units: parasites per 200 white blood cells (WBC), parasites per ul blood, or proportion of red blood cells (RBCs) infected. The user defines the input unit type (options: "WBC200", "parasites_ul", or "pcnt_RBC", for the above units, respectively) and the parasitaemia value for that unit. The script will print in the terminal the conversion to the other two parasitaemia unit types.
 
-Default assumptions are 10E+9 WBC/L and 3E+12 RBC/L. These can be changed.
-Note: while 8x10^9 WBC/L is commonly used for this conversion, I have used 10x10^9/L by default based on this paper: https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-11-238. The authors find that 10x10^9/L more accurately reflects children under 5 in Ghana. 
-For greater accuracy, actual WBC counts for the patient would be required. This is only an approximation.
+Default assumptions are 10E+9 WBC/L and 3E+12 RBC/L. These can be changed. Note: while 8x10^9 WBC/L is commonly used for this conversion, I have used 10x10^9/L by default based on this paper: https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-11-238. The authors find that 10x10^9/L more accurately reflects children under 5 in Ghana. For greater accuracy, actual WBC counts for the patient would be required. This is only an approximation.
 
 ## Running the script
 ### Mandatory inputs:
  -i or --input. The starting unit [options: "WBC200", "parasites_ul", or "pcnt_RBC"]
+ 
  -c or --count. The parasitaemia value (numeric)
  
 ### Optional inputs:
  -w or --WBC_per_L. The WBC/L value. Defaults to 10000000000
+ 
  -r or --RBC_per_L. The RBC/L value. Defaults to 3E+12
 
 ### Example command line:
