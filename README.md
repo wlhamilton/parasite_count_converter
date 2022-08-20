@@ -21,12 +21,20 @@ Default assumptions are 10E+9 WBC/L and 3E+12 RBC/L. These can be changed. Note:
 python3 PATH/pf_parasite_converter.py -i "WBC200" -c 1000
 
 Expected output from above command would be:
+
 Parasite count converter v1.0
+
 Starting input: 1000.0 parasites per 200 WBC
+
 Assumptions: WBC/L: 10000000000.0 | RBC/L: 3000000000000.0
+
 Calculated outputs:
+
 Parasites per 200 WBC: 1000.0
+
 Parasites per ul blood: 50000.0
+
 Proportion of RBCs infected: 0.0167
+
 
 Note the proportion of infected RBCs would need to be multiplied by 100 for percentage of RBCs infected.
