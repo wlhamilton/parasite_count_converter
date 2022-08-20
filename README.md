@@ -28,10 +28,8 @@ Starting input: 1000.0 parasites per 200 WBC
 
 Assumptions: WBC/L: 10000000000.0 | RBC/L: 3000000000000.0
 
-Calculated outputs:
-
-Parasites per 200 WBC: 1000.0
-
+Calculated outputs: <br>
+Parasites per 200 WBC: 1000.0 <br>
 Parasites per ul blood: 50000.0
 
 Proportion of RBCs infected: 0.0167
