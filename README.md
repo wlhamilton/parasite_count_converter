@@ -8,7 +8,7 @@ Default assumptions are 10E+9 WBC/L and 3E+12 RBC/L. These can be changed by the
 
 ## Running the script
 ### Mandatory inputs:
- -i or --input. The starting parasitaemia unit [options: "WBC200", "parasites_ul", or "pcnt_RBC"]
+ -i or --input. The starting parasitaemia unit [options: "WBC200", "parasites_ul", or "pcnt_RBC". Needs to include the quotation marks in the command]
  
  -c or --count. The parasitaemia value (numeric)
  
